@@ -46,14 +46,17 @@
 }
 
 .firstlvl {
-    margin: 1% 0.5% 1% 0.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     height: auto;
     width: auto;
+    position: relative;
+    display:table;
 }
 
 #firstline ul li {
-    padding: 4%;
-    width: 84%;
+    padding: 3.5%;
+    width: 92.%;
     height: auto;
     list-style: none;
     border: 0.5px solid rgba(56, 56, 56, 0.17);
@@ -61,12 +64,20 @@
     font-family: "Cuprum", sans-serif;
     font-size: 1.3em;
     border-radius: 5px;
-    margin-bottom: 1.5%;
     transition: 0.5s;
     transition-delay: 0.2s;
+    margin-bottom: 1.5%;
 }
 #firstline ul #lit {
-        background-color: rgb(199, 199, 199); 
+        background-color: rgb(199, 199, 199);  
+}
+#firstline ul #qq{
+   width: 40%;
+    display: table-cell;
+}
+#firstline ul #q{
+    width: 40%;
+    display: table-cell;
 }
 #Cimage {
     margin-left: 45.5%;
@@ -104,11 +115,12 @@
    margin: 1% 0.5% 1% 0.5%;
     height: auto;
     width: auto;
+    display: table;
 }
 
 #secondline ul li {
     padding: 4%;
-    width: 84%;
+    width: 92.%;
     height: auto;
     list-style: none;
     border: 0.5px solid rgba(56, 56, 56, 0.17);
@@ -166,6 +178,8 @@
 #p5{text-align: center; font-size: 1.5em;}
 #p6{text-align: center; font-size: 1.5em;}
 
+#l2b2 {display: table-cell; width: 45%;}
+#l2b3 {display: table-cell; width: 45%;}
 #l2b2:hover { 
     background-color: rgb(34, 44, 54);
     color: rgb(250,250,250);
@@ -192,31 +206,31 @@
 }
 
 .thirdlvl {
-    margin: 1% 0% 0% -5% ;
+    margin-left: 19%;
     height: auto;
     line-height: 45px;
     font-family: "Cuprum", sans-serif;
     font-size: 1.3em;
     color: rgb(15, 155, 229);
     text-align: center;
-    line-height: 100px;
+    display: table;
 }
 #thirdlevel ul li{
-    display: inline;
+    display: inline-block;
     list-style-type: none;
-    width: 25%;
-    padding:2%; 
+    width: 92%;
     margin: 1% -1% 1% -1%;
-     border-radius: 10px;
+    border-radius: 10px;
 }
 
 #thirdlevel ul li a{
    color: rgb(15, 155, 229);
     text-decoration: none;
 }
-#thd1{background-color: rgb(12, 44, 72);}
-#thd2{background-color: rgb(12, 44, 72);}
-#thd3{background-color: rgb(12, 44, 72);}
+#thd1{background-color: rgb(12, 44, 72); display: table-cell;}
+#thd2{background-color: rgb(12, 44, 72); display: table-cell;}
+#thd3{background-color: rgb(12, 44, 72); display: table-cell;}
 #thd4{
     background-color: rgb(255, 255, 0);
+    display: table-cell;
 }
