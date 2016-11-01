@@ -235,24 +235,17 @@
    text-decoration: none; 
 }
 #thd1{
-    width: 22%;
-    display: inline-block; 
+     
+    
 }
 #thd2{
-    width:24%;
-    display: inline-block;
+    
+    
 }
 #thd3{
-    width: 25%;
-    display: inline-block;
-
+    
 }
 #thd4{
-    background-color: rgb(255, 255, 0);
-    background-size: auto;
-    width: 25%;
-    border-radius: 10px;
-    border: 2px solid rgb(255, 255, 0);
-    display: inline-block;
-    margin-right: -2.5%;
+    border-radius: 6px;
+    background-color: yellow;
 }
