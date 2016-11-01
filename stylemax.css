@@ -46,56 +46,40 @@
 }
 
 .firstlvl {
-<<<<<<< HEAD
-    margin: 1% 0.5% 1% 0.5%;
     height: auto;
-    width: auto;
-}
-
-#firstline ul li {
-    padding: 4%;
-    width: 84%;
-=======
-    margin-top: 1%;
-    margin-bottom: 1%;
+    width: 98%;
     height: auto;
-    width: auto;
-    position: relative;
-    display:table;
-}
-
-#firstline ul li {
-    padding: 3.5%;
-    width: 92.%;
->>>>>>> parent of d599175... flexible_try_2
-    height: auto;
-    list-style: none;
-    border: 0.5px solid rgba(56, 56, 56, 0.17);
-    background-color: rgba(95, 95, 95, 0.04);
+    /*border: 0.5px solid rgba(56, 56, 56, 0.17);
+    background-color: rgba(95, 95, 95, 0.04);*/
     font-family: "Cuprum", sans-serif;
     font-size: 1.3em;
     border-radius: 5px;
-    margin-bottom: 1.5%;
     transition: 0.5s;
     transition-delay: 0.2s;
-<<<<<<< HEAD
+    margin-left: 1%;
+    margin-top: 1%;
 }
-#firstline ul #lit {
-        background-color: rgb(199, 199, 199); 
-=======
+
+#lit {
+    background-color: rgb(199, 199, 199);
+    border: 0.5px solid rgba(56, 56, 56, 0.17);
+    border-radius: 10px;
+    padding: 2.5%;
     margin-bottom: 1.5%;
 }
-#firstline ul #lit {
-        background-color: rgb(199, 199, 199);  
-}
-#firstline ul #qq{
+#qq{
    width: 40%;
     display: table-cell;
+      border: 0.5px solid rgba(56, 56, 56, 0.17);
+    border-radius: 10px;
+    padding: 2.5%;
 }
-#firstline ul #q{
+ #q{
     width: 40%;
     display: table-cell;
->>>>>>> parent of d599175... flexible_try_2
+       border: 0.5px solid rgba(56, 56, 56, 0.17);
+    border-radius: 10px;
+    padding: 2.5%;
 }
 #Cimage {
     margin-left: 45.5%;
@@ -130,35 +114,39 @@
 
 .secondlevel
 {
-   margin: 1% 0.5% 1% 0.5%;
     height: auto;
-    width: auto;
-<<<<<<< HEAD
-=======
-    display: table;
->>>>>>> parent of d599175... flexible_try_2
-}
-
-#secondline ul li {
-    padding: 4%;
-<<<<<<< HEAD
-    width: 84%;
-=======
-    width: 92.%;
->>>>>>> parent of d599175... flexible_try_2
+    margin-left: 1%;
+    margin-top: 1.5%;
+   
+    width: 98%;
+    
     height: auto;
-    list-style: none;
-    border: 0.5px solid rgba(56, 56, 56, 0.17);
-    background-color: rgba(56, 56, 56, 0.04);
+    /*border: 0.5px solid rgba(56, 56, 56, 0.17);
+    background-color: rgba(56, 56, 56, 0.04);*/
     font-family: "Cuprum", sans-serif;
     font-size: 1.3em;
-    margin-bottom: 1.5%;
-    text-align: center;
-    
+    text-align: center; 
 }
-#secondline ul #li2{
-    background-color: rgb(199, 199, 199);
-    text-align: left;
+#li2{
+     background-color: rgb(199, 199, 199);
+    border: 0.5px solid rgba(56, 56, 56, 0.17);
+    border-radius: 10px;
+    padding: 2.5%;
+    margin-bottom: 1.5%;
+}
+#l2b2 { 
+    width: 45%; 
+    display: table-cell;
+    border: 0.5px solid rgba(56, 56, 56, 0.17);
+    border-radius: 10px;
+    padding: 2.5%;
+}
+#l2b3 { 
+    width: 45%; 
+    display: table-cell;
+    border: 0.5px solid rgba(56, 56, 56, 0.17);
+    border-radius: 10px;
+    padding: 2.5%;
 }
 
 #qq:hover {
@@ -203,11 +191,7 @@
 #p5{text-align: center; font-size: 1.5em;}
 #p6{text-align: center; font-size: 1.5em;}
 
-<<<<<<< HEAD
-=======
-#l2b2 {display: table-cell; width: 45%;}
-#l2b3 {display: table-cell; width: 45%;}
->>>>>>> parent of d599175... flexible_try_2
+
 #l2b2:hover { 
     background-color: rgb(34, 44, 54);
     color: rgb(250,250,250);
@@ -234,55 +218,40 @@
 }
 
 .thirdlvl {
-<<<<<<< HEAD
-    margin: 1% 0% 0% -5% ;
-=======
-    margin-left: 19%;
->>>>>>> parent of d599175... flexible_try_2
+    width: 98%;
     height: auto;
-    line-height: 45px;
     font-family: "Cuprum", sans-serif;
     font-size: 1.3em;
     color: rgb(15, 155, 229);
     text-align: center;
-<<<<<<< HEAD
-    line-height: 100px;
-}
-#thirdlevel ul li{
-    display: inline;
-    list-style-type: none;
-    width: 25%;
-    padding:2%; 
-    margin: 1% -1% 1% -1%;
+    background-color: rgb(12, 44, 72);
      border-radius: 10px;
-=======
-    display: table;
-}
-#thirdlevel ul li{
-    display: inline-block;
-    list-style-type: none;
-    width: 92%;
-    margin: 1% -1% 1% -1%;
-    border-radius: 10px;
->>>>>>> parent of d599175... flexible_try_2
+    line-height: 50px;
+    margin-left: 0.8%;
 }
 
-#thirdlevel ul li a{
+#thirdlevel a{
    color: rgb(15, 155, 229);
-    text-decoration: none;
+   text-decoration: none; 
 }
-<<<<<<< HEAD
-#thd1{background-color: rgb(12, 44, 72);}
-#thd2{background-color: rgb(12, 44, 72);}
-#thd3{background-color: rgb(12, 44, 72);}
+#thd1{
+    width: 24%;
+    border-radius: 10px;
+    display: inline-block;
+}
+#thd2{
+    width:24%;
+    border-radius: 10px;
+    display: inline-block;
+}
+#thd3{
+    width: 25%;
+    border-radius: 10px;
+    display: inline-block;
+}
 #thd4{
     background-color: rgb(255, 255, 0);
-=======
-#thd1{background-color: rgb(12, 44, 72); display: table-cell;}
-#thd2{background-color: rgb(12, 44, 72); display: table-cell;}
-#thd3{background-color: rgb(12, 44, 72); display: table-cell;}
-#thd4{
-    background-color: rgb(255, 255, 0);
-    display: table-cell;
->>>>>>> parent of d599175... flexible_try_2
+    width: 25%;
+    border-radius: 10px;
+    display: inline-block;
 }
