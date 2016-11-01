@@ -229,7 +229,7 @@ background-color: rgb(34, 44, 54);
     color: rgb(15, 155, 229);
     text-align: center;
     line-height: 50px;
-    background-color: rgb(12, 44, 72);
+    
     border-radius: 10px;
     margin-top: 1%;
 }
@@ -240,14 +240,17 @@ background-color: rgb(34, 44, 54);
 #thd1{
     display: inline-block;
     width: 24%;
+    background-color: rgb(12, 44, 72);
 }
 #thd2{
     display: inline-block;
     width: 24%;
+    background-color: rgb(12, 44, 72);
 }
 #thd3{
    display: inline-block;
     width: 25%;
+    background-color: rgb(12, 44, 72);
 }
 #thd4{
     background-color: rgb(255, 255, 0);

@@ -224,7 +224,6 @@
     font-size: 1.3em;
     color: rgb(15, 155, 229);
     text-align: center;
-    background-color: rgb(12, 44, 72);
      border-radius: 10px;
     line-height: 50px;
     margin-left: 0.8%;
@@ -238,16 +237,19 @@
     width: 24%;
     border-radius: 10px;
     display: inline-block;
+    background-color: rgb(12, 44, 72);
 }
 #thd2{
     width:24%;
     border-radius: 10px;
     display: inline-block;
+    background-color: rgb(12, 44, 72);
 }
 #thd3{
     width: 25%;
     border-radius: 10px;
     display: inline-block;
+    background-color: rgb(12, 44, 72);
 }
 #thd4{
     background-color: rgb(255, 255, 0);
