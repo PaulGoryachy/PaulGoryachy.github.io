@@ -227,6 +227,7 @@
      border-radius: 10px;
     line-height: 50px;
     margin-left: 0.8%;
+        background-color: rgb(12, 44, 72);
 }
 
 #thirdlevel a{
@@ -234,26 +235,24 @@
    text-decoration: none; 
 }
 #thd1{
-    width: 24%;
-    border-radius: 10px;
-    display: inline-block;
-    background-color: rgb(12, 44, 72);
+    width: 22%;
+    display: inline-block; 
 }
 #thd2{
     width:24%;
-    border-radius: 10px;
     display: inline-block;
-    background-color: rgb(12, 44, 72);
 }
 #thd3{
     width: 25%;
-    border-radius: 10px;
     display: inline-block;
-    background-color: rgb(12, 44, 72);
+
 }
 #thd4{
     background-color: rgb(255, 255, 0);
+    background-size: auto;
     width: 25%;
     border-radius: 10px;
+    border: 2px solid rgb(255, 255, 0);
     display: inline-block;
+    margin-right: -2.5%;
 }
