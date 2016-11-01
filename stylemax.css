@@ -228,23 +228,14 @@
     line-height: 50px;
     margin-left: 0.8%;
         background-color: rgb(12, 44, 72);
+    margin-top: 1.25%;
 }
 
 #thirdlevel a{
    color: rgb(15, 155, 229);
    text-decoration: none; 
 }
-#thd1{
-     
-    
-}
-#thd2{
-    
-    
-}
-#thd3{
-    
-}
+
 #thd4{
     border-radius: 6px;
     background-color: yellow;
