@@ -637,8 +637,8 @@ body {
 
 	.side1 li:nth-child(n+10),
 	.side1 hr:nth-child(n+9),
-	.side li:nth-child(n+24),
-	.side hr:nth-child(n+23) {
+	.side li:nth-child(n+23),
+	.side hr:nth-child(n+22) {
 		display: none;
 	}
 
